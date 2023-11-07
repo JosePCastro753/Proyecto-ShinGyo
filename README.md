@@ -7,8 +7,8 @@ Actualmente `./Shin_DMS/` ha demostrado que el proyecto es factible de realizars
 actualmente el proyecto se puede considerar en una etapa de desarrollo con un norte definido y una base sobre la cual mejorar.
 #### Grafica de aprendizaje de Shin DMS
 <img src="/Shin_DMS/Reultados_1/grafica_aprendizaje.jpeg" height="250px" width="400px" ><br>
-Datos tomados de una corrida de aprendizaje de 1000 episodios.<br>
-Muestra el puntaje obtenido por cada episodio.
+_Datos tomados de una corrida de aprendizaje de 1000 episodios.<br>
+Muestra el puntaje obtenido por cada episodio._
 
 ## Cambios Planeados
 `./Shin^2_DMS/` [Shin Shin DMS] toma como base a su antecesor, y busca robustecer sus algoritmos de aprendizaje tanto a nivel de codigo como estadistico, balancear su ecosistema, sofisticar y personalizar tanto sus agentes como los modeles relacionados a estos y corregir errores de su antecesor.<br>
