@@ -6,7 +6,7 @@ Tambien busca dotar al sistema de la cualidad humana del "apetito de riesgo", en
 Actualmente `./Shin_DMS/` ha demostrado que el proyecto es factible de realizarse y es en si mismo un sistema funcional, mas no uno confiable, ni optimo.<br>
 actualmente el proyecto se puede considerar en una etapa de desarrollo con un norte definido y una base sobre la cual mejorar.
 #### Grafica de aprendizaje de Shin DMS
-<img src="Proyecto-Shin-DMS/Shin_DMS/Resultados_1/grafica_aprendizaje.jpeg" height="250px" width="400px" ><br>
+<img src="/Shin_DMS/Reultados_1/grafica_aprendizaje.jpeg" height="250px" width="400px" ><br>
 Datos tomados de una corrida de aprendizaje de 1000 episodios.<br>
 Muestra el puntaje obtenido por cada episodio.
 
