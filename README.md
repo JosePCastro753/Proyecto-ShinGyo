@@ -1,5 +1,5 @@
 # Shin DMS
-`./Shin_DMS/` es un proyecto que busca desarrollar un sitema multi-agente capas de tomar deciciones sobre una simulacion realista de una linea de produccion, implicando todas las situaciones imprevistas y aleatorias presentes en una, sean productos defectuosos, paros de maquina no pronosticada, reprocesos, entre otros.<br>
+Shin_DMS es un proyecto que busca desarrollar un sitema multi-agente capas de tomar deciciones sobre una simulacion realista de una linea de produccion, implicando todas las situaciones imprevistas y aleatorias presentes en una, sean productos defectuosos, paros de maquina no pronosticada, reprocesos, entre otros.<br>
 Tambien busca dotar al sistema de la cualidad humana del "apetito de riesgo", entrenando a los modelos del sistema para que asuman mas o menos riesgos a la hora de tomar decisiones sobre la linea de produccion. Esto es una caracteristica relevante para las industrias ya que, dependiendo del contexto en que la empresa, se puede preferir ser mas reserado o arriesgado en el manejo de la produccion.
 
 ## Estado Actual 
