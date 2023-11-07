@@ -1,6 +1,6 @@
 # Shin DMS
 Shin_DMS es un proyecto que busca desarrollar un sitema multi-agente capas de tomar deciciones sobre una simulacion realista de una linea de produccion, implicando todas las situaciones imprevistas y aleatorias presentes en una, sean productos defectuosos, paros de maquina no pronosticada, reprocesos, entre otros.<br>
-Tambien busca dotar al sistema de la cualidad humana del "apetito de riesgo", entrenando a los modelos del sistema para que asuman mas o menos riesgos a la hora de tomar decisiones sobre la linea de produccion. Esto es una caracteristica relevante para las industrias ya que, dependiendo del contexto en que la empresa, se puede preferir ser mas reserado o arriesgado en el manejo de la produccion.
+Tambien busca dotar al sistema de la cualidad humana del "apetito de riesgo", entrenando a los modelos del sistema para que asuman mas o menos riesgos a la hora de tomar decisiones sobre la linea de produccion.
 
 ## Estado Actual 
 Actualmente `./Shin_DMS/` ha demostrado que el proyecto es factible de realizarse y es en si mismo un sistema funcional, mas no uno confiable, ni optimo.<br>
@@ -15,4 +15,7 @@ Muestra el puntaje obtenido por cada episodio.
 Actualmente existen los siguiente cambios planeados:
 - Balancear los porcentajes de piezas defectuosas y reprocesos en la simulacion, asi como las recompensas asociados a los resultados de la misma. Esto dado que se noto que los valores actuales no coinciden aportan correctamente a orientar al sistema en la direccion deseada.
 - Transformar el ciclo de ejecucion de episodios actual, a un ciclo donde en cada episodio se generar un ecosistema aleatorio y se realizaran multiples iteraciones sobre un este antes de pasar al siguiente episodio. Esto con el fin de enseñar al sistemaa resolver una situacion antes de cambiarla, esto dado que entre ecosistemas, la forma de abordarlos y las soluciones optimas varian considerablemente.
-- Reservar una mayor cantidad de recursos para ejecutar multiples corridas de aprendizaje a modo de prueba o exploracion, con mayor cantidad de episodios por corrida e iteraciones por episodio.
+- Reservar una mayor cantidad de recursos para ejecutar multiples corridas de aprendizaje a modo de prueba o exploracion, con mayor cantidad de episodios por corrida e iteraciones por episodio.<br>
+El objetivo último del proyecto es obtener una herramienta que pueda ser implementada en una línea de producción real y tomar variedad de decisiones sobre ella, siguiendo un apetito de riesgo dictado, siendo supervisada por un experto humano pero lo suficientemente confiable y adaptable para no requerir mayor intervencion por parte de este.<br>
+<br>
+_"Entre el hoy y el mañana es cuando ocurren los sueños"_
