@@ -18,4 +18,4 @@ Actualmente existen los siguiente cambios planeados:
 - Reservar una mayor cantidad de recursos para ejecutar multiples corridas de aprendizaje a modo de prueba o exploracion, con mayor cantidad de episodios por corrida e iteraciones por episodio.
 - Arreglar la impresion de decisiones en el resumen del ecosistema.
 
-El objetivo último del proyecto es obtener una herramienta que pueda ser implementada en una línea de producción real y tomar variedad de decisiones sobre ella, siguiendo un apetito de riesgo dictado, siendo supervisada por un experto humano pero lo suficientemente confiable y adaptable para no requerir mayor intervencion por parte de este.
+El objetivo último del proyecto es obtener una herramienta que pueda ser implementada como controladora de una línea de producción real y tomar variedad de decisiones sobre ella, siguiendo un apetito de riesgo dictado; siendo supervisada por un experto humano pero lo suficientemente confiable y adaptable para no requerir mayor intervencion por parte de este.
