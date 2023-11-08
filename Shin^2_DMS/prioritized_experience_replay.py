@@ -1,3 +1,8 @@
+"""
+Proyecto Shin DMS
+@author: Jose Pablo Castro
+@author: David Jimenez
+"""
 import random
 
 from sum_tree import SumTree as ST
