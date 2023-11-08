@@ -1,3 +1,8 @@
+"""
+Proyecto Shin DMS
+@author: Jose Pablo Castro
+@author: David Jimenez
+"""
 import os
 from keras.models import Sequential, Model
 from keras.layers import Dense, Lambda, Input, Concatenate

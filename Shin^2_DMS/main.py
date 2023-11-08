@@ -1,3 +1,8 @@
+"""
+Proyecto Shin DMS
+@author: Jose Pablo Castro
+@author: David Jimenez
+"""
 import numpy as np
 import os
 import argparse

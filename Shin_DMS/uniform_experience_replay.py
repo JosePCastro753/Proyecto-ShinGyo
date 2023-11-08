@@ -1,4 +1,8 @@
-
+"""
+Proyecto Shin DMS
+@author: Jose Pablo Castro
+@author: David Jimenez
+"""
 import random
 from collections import deque
 

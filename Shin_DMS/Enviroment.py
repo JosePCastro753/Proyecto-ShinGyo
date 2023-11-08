@@ -1,3 +1,8 @@
+"""
+Proyecto Shin DMS
+@author: Jose Pablo Castro
+@author: David Jimenez
+"""
 import random
 import numpy as np
 import h5py
