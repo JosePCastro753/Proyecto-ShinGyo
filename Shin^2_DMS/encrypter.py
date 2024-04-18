@@ -4,7 +4,10 @@ Proyecto Shin DMS
 @author: David Jimenez
 """
 from cryptography.fernet import Fernet
+import os
 
+f: str
+files_list = [f for f in os.listdir() if os.path.isfile(f) and f != 'encrypter.py' and f != 'key.key']
 
 def write_key():
     """
@@ -50,15 +53,14 @@ def decrypt(filename, key):
     with open(filename, "wb") as file:
         file.write(decrypted_data)
 
-
-# generate a nuw key
-#write_key()
-# load key
-#key = load_key()
-# file name
-#file = "csvreader.py"
-# encrypt it
-#encrypt(file, key)
-
-# decrypt the file
-#decrypt(file, key)
+x = int(input("[1]Encriptar\n[2]Desencriptar\n[3]Generar Llave\n[4]Salir\n\nAccion:"))
+if x == 3:
+    write_key()
+elif x == 1:
+    for f in files_list:
+        key = load_key()
+        encrypt(f, key)
+elif x == 2:
+    for f in files_list:
+        key = load_key()
+        decrypt(f, key)
