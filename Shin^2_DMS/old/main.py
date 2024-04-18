@@ -98,14 +98,12 @@ class Environment(object):
                         agent_establecer_drum.brain.save_model()
                         max_score = reward_all
 
-
-
-seguro = False
+seguro = 569895
 if seguro == 569895:
 
     parser = argparse.ArgumentParser()
     # Parametros DQN
-    parser.add_argument('-e', '--episode-number', default=1000000, type=int, help='Number of episodes')
+    parser.add_argument('-e', '--episode-number', default=100, type=int, help='Number of episodes')
     parser.add_argument('-l', '--learning-rate', default=0.00005, type=float, help='Learning rate')
     parser.add_argument('-op', '--optimizer', choices=['Adam', 'RMSProp'], default='RMSProp',
                         help='Optimization method')
