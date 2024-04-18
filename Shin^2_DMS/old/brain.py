@@ -1,5 +1,4 @@
 """
-Created on Tue Nov 22 22:21:13 2022
 Proyecto Shin DMS
 @author: Jose Pablo Castro
 @author: David Jimenez
@@ -109,3 +108,8 @@ class Brain(object):
 
     def save_model(self):
         self.model.save(self.weight_backup)
+
+#from tensorflow.python.client import device_lib
+#print(tf.config.list_physical_devices('GPU'))
+#print(device_lib.list_local_devices())
+
