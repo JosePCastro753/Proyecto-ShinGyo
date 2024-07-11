@@ -11,7 +11,7 @@ _Datos tomados de una corrida de aprendizaje de 1000 episodios.<br>
 Muestra el puntaje obtenido por cada episodio._
 
 ## El Camino Frente a Nosotros
-`./ShinGyo^2/` toma como base a su antecesor, y busca robustecer sus algoritmos de aprendizaje tanto a nivel de código como estadístico, balancear su ecosistema, sofisticar y personalizar tanto sus agentes como los modeles relacionados a estos y corregir errores de su antecesor.<br>
+`./ShinGyo^2/` [ShinShinGyo] toma como base a su antecesor, y busca robustecer sus algoritmos de aprendizaje tanto a nivel de código como estadístico, balancear su ecosistema, sofisticar y personalizar tanto sus agentes como los modeles relacionados a estos y corregir errores de su antecesor.<br>
 Actualmente existen los siguientes cambios planeados:
 - Balancear los porcentajes de piezas defectuosas y reprocesos en la simulación, así como las recompensas asociadas a los resultados de esta. Esto dado que se notó que los valores actuales no coinciden aportan correctamente a orientar al sistema en la dirección deseada.
 - Transformar el ciclo de ejecución de episodios actual, a un ciclo donde en cada episodio se generar un ecosistema aleatorio y se realizaran múltiples iteraciones sobre un este antes de pasar al siguiente episodio. Esto con el fin de enseñar al sistema resolver una situación antes de cambiarla, esto dado que, entre ecosistemas, la forma de abordarlos y las soluciones optimas varían considerablemente.
