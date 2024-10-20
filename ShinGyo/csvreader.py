@@ -1,7 +1,6 @@
 """
 Proyecto Shin DMS
 @author: Jose Pablo Castro
-@author: David Jimenez
 """
 import pandas as pd
 import matplotlib.pyplot as plt
