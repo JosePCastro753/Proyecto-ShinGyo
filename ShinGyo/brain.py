@@ -1,7 +1,6 @@
 """
 Proyecto Shin DMS
 @author: Jose Pablo Castro
-@author: David Jimenez
 """
 import os
 from keras.models import Sequential, Model
